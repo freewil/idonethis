@@ -1,0 +1,11 @@
+# example idonethis config
+# copy to ~/.idonethis.yaml and customize to your liking
+transport: SMTP
+from: myemail@example.com
+to: my-example-calendar@team.idonethis.com
+transportOpts:
+  service: Gmail
+  maxConnections: 1
+  auth:
+    user: myemail@example.com
+    pass: mypassword
